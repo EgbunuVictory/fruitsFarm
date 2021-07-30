@@ -1,0 +1,79 @@
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/image4.jpg);
+    font-family: sans-serif;
+   
+}
+ 
+
+
+nav {
+    width: 100%;
+    height: 8vh;
+    background:  rgb(8, 122, 160);;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .logo-container {
+    width: 25%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+  .logo {
+    color:aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+
+  }
+  
+  
+  .nav-links-container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+  }
+  
+  .nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .nav-links-container :hover{
+    padding: 5px;
+    background-color: rgb(12, 165, 12);
+    border-radius: 20%;
+  }
+  .text>h1 {
+      text-align: center;
+      color: aliceblue;
+    }
+    .text>h2 {
+        text-align: center;
+        color: aliceblue;
+      }
+      .text>h3 {
+        text-align: center;
+        color: aliceblue;
+              }
+
+.services{
+  color: ghostwhite;
+  position: relative;
+  font-weight: bold;
+  font-size: large;
+}
+
+.text{
+  font-weight: bold;
+  font-size: x-large;
+}
